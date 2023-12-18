@@ -2,7 +2,7 @@
 First look at Hardhat
 
 
-How to run a blockchain with hard hat
+## How to run a blockchain with hard hat
 _____________________________________
 
 1. npx hardhat node 
@@ -10,7 +10,7 @@ _____________________________________
     - This will generate addresses with test eth and run a local blockchain
 
 
-How to build with hardhat
+## How to build with hardhat
 _________________________
 
 
@@ -22,13 +22,13 @@ _________________________
 4. npx harhat compile
 
 
-Deploy to local network
+## Deploy to local network
 _______________________
 
 1. npx hardhat run --network localhost .\scripts\deploy.js
 
 
-Interacting with a deployed smart contract
+## Interacting with a deployed smart contract
 __________________________________________
 
 npx hardhat console --network localhost
