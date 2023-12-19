@@ -33,7 +33,7 @@ __________________________________________
 
 npx hardhat console --network localhost
 
-1. Retrieving the smart contract **const myContract = await ethers.getContractAt("MyContract", "\Your contract address\"))**
+1. Retrieving the smart contract **const myContract = await ethers.getContractAt("MyContract", "\Your contract address\")**
 2. To retrieve data from smart contract **await myContract.get()**
 3. To set value **await myContract.set("WOOF")**
 4. **.exit** to exit console in terminal
