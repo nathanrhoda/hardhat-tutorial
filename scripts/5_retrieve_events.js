@@ -11,7 +11,7 @@ const ERC20_ABI = [
     "event Transfer(address indexed from, address indexed to, uint amount)"
 ];
 
-const address = '0x322813Fd9A801c5507c9de605d63CEA4f2CE6c44' 
+const address = '0x5fbdb2315678afecb367f032d93f642f64180aa3' 
 const contract = new ethers.Contract(address, ERC20_ABI, provider)
 
 const main = async () => {
