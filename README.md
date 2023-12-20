@@ -2,6 +2,8 @@
 First look at Hardhat
 
 
+### Note contract addresses referenced in scripts needs to be updated according to you deployed address. This has been intentional hard coded so that you can get comfortable and get a deeper understanding of all the moving parts
+
 ## How to run a blockchain with hard hat
 _____________________________________
 
