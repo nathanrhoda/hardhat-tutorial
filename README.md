@@ -19,7 +19,7 @@ _________________________
 1. npm init 
 2. npm install --save-dev hardhat
 3. Code contract
-4. npx harhat compile
+4. npx hardhat compile
 
 
 ## Deploy to local network
@@ -27,6 +27,11 @@ _______________________
 
 1. npx hardhat run --network localhost .\scripts\deploy.js
 
+
+## Running a script 
+_______________________
+
+npx hardhat run --network localhost .\scripts\1_accounts.js
 
 ## Interacting with a deployed smart contract
 __________________________________________
